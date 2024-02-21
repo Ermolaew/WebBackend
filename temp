@@ -1,0 +1,6 @@
+GET /WebBackend/Task2/files/index.php HTTP/1.1
+Host: u67358.kubsu-dev.ru
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 20
+
+comment=abcde
