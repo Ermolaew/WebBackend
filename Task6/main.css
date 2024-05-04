@@ -1,0 +1,67 @@
+.name input, .phone input, .email input, .year input{
+    padding: 13px;
+}
+body{
+    background-color: #e5e8fb;
+}
+table { 
+    border-collapse: collapse; 
+    text-align: center;
+    margin: 0 auto ;
+}
+
+td, th {
+    padding: 5px 10px;
+    border: 1px solid #5d5d5d; 
+}
+
+th {
+    background: #b7b1e9;
+}
+
+
+select {
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
+.year{
+    width:100px;
+}
+.langs{
+    text-align: left;
+}
+td .change{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.button_save{
+    margin-bottom: 15px ;
+}
+
+.column-item input{
+    padding: 5px;
+    width: 60px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(28, 110, 164, 0.5);
+}
+
+.msgbox {
+    padding: 10px 0px 25px 10px;
+}
+.langProg{
+    margin: 0;
+}
+.langStat{
+    margin-left: 40px;
+}
+.bio{
+    padding: 10px;
+}
