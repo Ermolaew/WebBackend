@@ -9,7 +9,7 @@ $pass = '5004219';
 $db = new PDO('mysql:host=localhost;dbname=u67358', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 
 
-$stmt = $db->prepare("SELECT login, password FROM admins WHERE login = ?");
+$stmt = $db->prepare("SELECT login, password FROM admins WHERE login = ?"); //login: admin, pass: admin
 $stmt->execute([$_SERVER['PHP_AUTH_USER']]);
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
 
